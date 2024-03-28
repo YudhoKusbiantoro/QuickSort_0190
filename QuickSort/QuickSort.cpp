@@ -10,4 +10,16 @@ int cmp_count = 0; //number of comparasion
 int mov_count = 0; //number of data movements
 int n;
 
-void input() {}
+void input() {
+	while (true)
+	{
+		cout << "Masukan panjang element Array: ";
+		cin >> n;
+
+		if (n <= 20)
+			break;
+		else
+			cout << "n\Maksimum panjang array adalah 20" << endl;
+
+	}
+}
